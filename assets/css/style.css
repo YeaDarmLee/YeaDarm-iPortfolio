@@ -550,8 +550,8 @@ section {
 
 .skills .img-box img {
   border-radius: 20px;
-  width: 120px;
-  height: 120px;
+  /*width: 120px;
+  height: 120px;*/
 }
 
 /*--------------------------------------------------------------
