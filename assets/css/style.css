@@ -549,7 +549,7 @@ section {
 }
 
 .skills .img-box img {
-  border-radius: 20px;
+  border-radius: 5px;
   /*width: 120px;
   height: 120px;*/
 }
@@ -561,7 +561,7 @@ section {
   background: #fff;
 }
 
-.portfolio .resume-title {
+.resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
@@ -569,14 +569,14 @@ section {
   color: #050d18;
 }
 
-.portfolio .resume-item {
+.resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
 }
 
-.portfolio .resume-item h4 {
+.resume-item h4 {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
@@ -586,7 +586,7 @@ section {
   margin-bottom: 10px;
 }
 
-.portfolio .resume-item h5 {
+.resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
   padding: 5px 15px;
@@ -595,19 +595,19 @@ section {
   margin-bottom: 10px;
 }
 
-.portfolio .resume-item ul {
+.resume-item ul {
   padding-left: 20px;
 }
 
-.portfolio .resume-item ul li {
+.resume-item ul li {
   padding-bottom: 10px;
 }
 
-.portfolio .resume-item:last-child {
+.resume-item:last-child {
   padding-bottom: 0;
 }
 
-.portfolio .resume-item::before {
+.resume-item::before {
   content: "";
   position: absolute;
   width: 16px;
@@ -622,7 +622,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -658,14 +658,14 @@ section {
   margin-right: 0;
 }
 
-.portfolio .portfolio-wrap {
+.portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 
-.portfolio .portfolio-wrap::before {
+.portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
@@ -678,7 +678,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -690,7 +690,7 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
+.portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
   text-align: center;
@@ -699,15 +699,15 @@ section {
   width: 50%;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
 }
 
-.portfolio .portfolio-wrap:hover::before {
+.portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
@@ -715,7 +715,7 @@ section {
   opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
+.portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
