@@ -55,3 +55,13 @@ HTML/CSS, 인라인 SVG 및 기본 JavaScript를 사용하며, 빌드나 패키�
 최종 소개 타이밍은 건물 완성 1초 전인 1260ms 시작, 2260ms 완료입니다. 지하 배경에는 예시 코드가 배선 경로를 따라 놓이고, 런타임·복구 코드가 작은 제어실처럼 표현됩니다. 실제 프로젝트 소스는 배경에 사용하지 않습니다.
 
 상단 메뉴는 Home·Work·Archive·Career·About·Contact로 실제 섹션에 대응합니다. 모바일에서는 메뉴를 두 번째 줄에 배치해 모든 항목을 유지하며, 고정 메뉴의 높이를 앵커 여백에 반영합니다. 역량 3개 항목은 첫 항목까지 동일한 좌우 여백을 사용합니다.
+
+## Vercel 배포
+
+- 운영 주소: https://yeadarm-portfolio.vercel.app
+- 프로젝트: `yea-darm/yeadarm-portfolio`
+- 연결 저장소: `YeaDarmLee/YeaDarm-iPortfolio`
+- 프로덕션 브랜치: `main` (푸시 시 Vercel Git 연동으로 자동 배포)
+- 정적 HTML/CSS/JavaScript 사이트로 별도 빌드 명령 없이 배포합니다.
+
+현재 소개는 1.26초부터 3.26초까지 표시되며, 본문 섹션 배경 불투명도는 75%입니다. 이메일 주소를 누르면 복사 후 완료 토스트가 표시됩니다.
